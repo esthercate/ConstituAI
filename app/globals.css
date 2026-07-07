@@ -8,8 +8,8 @@
   --muted-foreground: #6b7280;
 
   /* Primary Colors */
-  --primary: #998DF7;
-  --primary-hover: #8778F5;
+  --primary: #5C40E1;
+  --primary-hover: #6B4AEE;
 
   /* Border Color */
   --border: #e5e7eb;
@@ -81,4 +81,20 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  @apply w-full max-w-7xl mx-auto px-6 lg:px-8;
+}
+
+.main {
+  @apply flex flex-1 flex-col items-center justify-center;
+}
+
+.navbar {
+    @apply flex items-center justify-between container p-4 border-b border-border;
+}
+
+.footer {
+  @apply flex container py-4 items-center justify-between gap-4 border-t border-border;
 }

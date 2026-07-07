@@ -9,7 +9,7 @@ export default function ThemeToggle() {
 	return (
 		<button
 			onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
-			className="rounded-full border border-border bg-surface p-2"
+			className="rounded-full border border-border bg-surface p-2 shadow-md"
 			aria-label="Toggle theme"
 		>
 			{resolvedTheme === 'dark' ? (
