@@ -10,12 +10,12 @@ const Logo = () => {
 			>
 				<GoLaw size={40} />
 				<div>
-					<p className="text-lg lg:text-xl font-bold">
+					<h4>
 						Constitu<span className="text-primary">AI</span>
-					</p>
-					<p className="text-xs lg:text-sm text-muted-foreground">
+					</h4>
+					<span className="text-xs lg:text-sm text-muted-foreground">
 						Understand. Empower. Uphold.
-					</p>
+					</span>
 				</div>
 			</Link>
 		</div>

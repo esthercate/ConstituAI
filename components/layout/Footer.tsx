@@ -12,13 +12,17 @@ const Footer = () => {
 					height={50}
 				/>
 				<div className="flex flex-col gap-1 text-xs lg:text-sm text-muted-foreground">
-					<p>ConstituAI is an independent civil tool.</p>
-					<p>Not affiliated with any government entity.</p>
+					<span className="text-xs lg:text-sm text-muted-foreground/80">
+						ConstituAI is an independent civil tool.
+					</span>
+					<span className="text-xs lg:text-sm text-muted-foreground/80">
+						Not affiliated with any government entity.
+					</span>
 				</div>
 			</div>
-			<p className="text-xs lg:text-sm text-muted-foreground">
-				© 2026 ConstituAI. All rights reserved.
-			</p>
+			<span className="text-xs lg:text-sm text-muted-foreground/80">
+				© {new Date().getFullYear()} ConstituAI. All rights reserved.
+			</span>
 		</div>
 	);
 }
