@@ -10,9 +10,9 @@ export default function Home() {
 			<Navbar />
 			<main className="main">
 				<Hero />
-				<SearchBar />
+				{/* <SearchBar />
 				<SuggestedQuestions />
-				<TrustedBadges />
+				<TrustedBadges /> */}
 			</main>
 			<Footer />
 		</div>
