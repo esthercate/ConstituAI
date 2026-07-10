@@ -13,6 +13,7 @@
 
   /* Border Color */
   --border: #e5e7eb;
+  --button: #5A46E9;
 
   /* surface Colors */
   --surface: #ffffff;
@@ -38,6 +39,7 @@
 
   /* Border Color */
   --border: #334155;
+  --button: #5A46E9;
 
   /* surface Colors */
   --surface: #1e293b;
@@ -61,6 +63,7 @@
   --color-primary-hover: var(--primary-hover);
 
   --color-border: var(--border);
+  --color-button: var(--button);
 
   --color-surface: var(--surface);
   --color-surface-muted: var(--surface-muted);
@@ -88,15 +91,19 @@ body {
 }
 
 .main {
-  @apply flex flex-1 flex-col items-center justify-center;
+  @apply flex flex-1 flex-col items-center justify-center gap-10;
 }
 
 .navbar {
-    @apply flex items-center justify-between container p-4 border-b border-border my-1.5;
+    @apply flex items-center justify-between container p-2 border-b border-border my-1.5;
 }
 
 .footer {
   @apply flex flex-col md:flex-row container py-4 items-center justify-between gap-6 border-t border-border;
+}
+
+.card {
+  @apply flex bg-surface-muted items-center justify-center gap-10 rounded-xl w-full p-10 shadow-lg;
 }
 
 h1 {
