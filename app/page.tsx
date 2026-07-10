@@ -10,8 +10,8 @@ export default function Home() {
 			<Navbar />
 			<main className="main">
 				<Hero />
-				{/* <SearchBar />
-				<SuggestedQuestions />
+				<SearchBar />
+				{/* <SuggestedQuestions />
 				<TrustedBadges /> */}
 			</main>
 			<Footer />

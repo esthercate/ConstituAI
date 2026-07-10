@@ -13,9 +13,9 @@ export default function ThemeToggle() {
 			aria-label="Toggle theme"
 		>
 			{resolvedTheme === 'dark' ? (
-				<MdLightMode className="h-5 w-5" />
+				<MdLightMode className="h-5 w-5 hover:text-primary" />
 			) : (
-				<MdDarkMode className="h-5 w-5" />
+				<MdDarkMode className="h-5 w-5 hover:text-primary" />
 			)}
 		</button>
 	);

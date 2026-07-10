@@ -6,10 +6,10 @@ const Footer = () => {
 		<div className="footer">
 			<div className="flex flex-col md:flex-row items-center gap-4">
 				<Image
-					src="/logo.svg"
+					src="/justice_shield_logo.svg"
 					alt="Logo"
-					width={50}
-					height={50}
+					width={60}
+					height={60}
 				/>
 				<div className="flex flex-col gap-1 text-xs lg:text-sm text-muted-foreground">
 					<span className="text-xs lg:text-sm text-muted-foreground/80">
