@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
 		<div className="footer">
-			<div className="flex flex-col md:flex-row items-center gap-4">
+			<div className="flex items-center gap-4">
 				<Image
 					src="/justice_shield_logo.svg"
 					alt="Logo"
