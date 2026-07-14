@@ -91,7 +91,7 @@ body {
 }
 
 .main {
-  @apply flex flex-1 flex-col items-center justify-center gap-10;
+  @apply flex container flex-1 flex-col items-center justify-center gap-6;
 }
 
 .navbar {
@@ -103,7 +103,7 @@ body {
 }
 
 .card {
-  @apply flex bg-surface-muted items-center justify-center gap-10 rounded-xl w-full p-10 shadow-lg;
+  @apply bg-surface rounded-xl shadow-lg inset-shadow-xs p-3 lg:p-6;
 }
 
 h1 {
