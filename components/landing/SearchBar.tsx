@@ -3,7 +3,7 @@ import { FiArrowRight, FiSearch } from 'react-icons/fi';
 const SearchBar = () => {
 	return (
 		<div className="container">
-			<div className="card flex justify-between">
+			<div className="card flex justify-between items-center mx-0 lg:mx-56 p-3 lg:p-6">
 				<div className="flex gap-4 w-full items-center">
 					<FiSearch className="text-primary text-3xl" />
 					<input
