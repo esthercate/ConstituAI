@@ -3,7 +3,7 @@ import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/landing/Hero';
 import SearchBar from '@/components/landing/SearchBar';
 import SuggestedQuestions from '@/components/landing/SuggestedQuestions';
-// import TrustedBadges from '@/components/landing/TrustedBadges';
+import TrustedBadges from '@/components/landing/TrustedBadges';
 export default function Home() {
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center">
@@ -12,7 +12,7 @@ export default function Home() {
 				<Hero />
 				<SearchBar />
 				<SuggestedQuestions />
-				{/* <TrustedBadges /> */}
+				<TrustedBadges />
 			</main>
 			<Footer />
 		</div>
