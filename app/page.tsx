@@ -6,7 +6,7 @@ import SuggestedQuestions from '@/components/landing/SuggestedQuestions';
 import TrustedBadges from '@/components/landing/TrustedBadges';
 export default function Home() {
 	return (
-		<div className="min-h-screen flex flex-col items-center justify-center">
+		<div className="min-h-screen flex flex-col items-center justify-center bg-[url(/bgimage.png)] dark:bg-[url('/darkbgimage.png')] bg-cover bg-center bg-no-repeat">
 			<Navbar />
 			<main className="main">
 				<Hero />

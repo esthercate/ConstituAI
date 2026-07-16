@@ -95,11 +95,11 @@ body {
 }
 
 .navbar {
-    @apply flex items-center justify-between container p-2 border-b border-border my-1.5;
+    @apply flex items-center justify-between container p-2 my-1.5;
 }
 
 .footer {
-  @apply flex flex-col md:flex-row container py-4 items-center justify-between gap-6 border-t border-border;
+  @apply flex flex-col md:flex-row container py-4 items-center justify-between gap-6;
 }
 
 .card {
