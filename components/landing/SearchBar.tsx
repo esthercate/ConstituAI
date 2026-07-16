@@ -1,15 +1,30 @@
+'use client';
+
 import { FiArrowRight, FiSearch } from 'react-icons/fi';
+import { useRef } from 'react';
 
 const SearchBar = () => {
+	const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+	const handleInput = () => {
+		const textarea = textareaRef.current;
+		if (!textarea) return;
+
+		textarea.style.height = '0px';
+		textarea.style.height = `${textarea.scrollHeight}px`;
+	};
+
 	return (
 		<div className="container">
 			<div className="card flex justify-between items-center mx-0 lg:mx-56 p-3 lg:p-6">
 				<div className="flex gap-4 w-full items-center">
 					<FiSearch className="text-primary text-3xl" />
-					<input
-						type="text"
+					<textarea
+						ref={textareaRef}
+						rows={1}
+						onInput={handleInput}
 						placeholder="Ask the constitution..."
-						className="flex w-full bg-transparent text-foreground placeholder:text-muted-foreground/60 text-base outline-none"
+						className="w-full resize-none overflow-hidden bg-transparent text-base text-foreground placeholder:text-muted-foreground/60 outline-none"
 					/>
 				</div>
 
