@@ -29,12 +29,14 @@ const trustedBadges = [
 const TrustedBadges = () => {
 	return (
 		<div className="container">
-			<div className="card mx-0 flex justify-between p-3 lg:mx-28 lg:p-4">
+			<div className="card mx-0 flex flex-col lg:flex-row justify-between gap-y-4 p-3 lg:mx-28 lg:p-4">
 				{trustedBadges.map(({ badge: Icon, title, description }, index) => (
 					<div
 						key={title}
-						className={`flex flex-col items-center justify-center gap-1 ${
-							index !== trustedBadges.length - 1 ? 'border-r border-border' : ''
+						className={`flex flex-col items-center px-6 justify-center gap-1 ${
+							index !== trustedBadges.length - 1
+								? 'border-b border-border lg:border-b-0 lg:border-r py-3 lg:py-0'
+								: ''
 						}`}
 					>
 						<Icon

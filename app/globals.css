@@ -91,7 +91,7 @@ body {
 }
 
 .main {
-  @apply flex container flex-1 flex-col items-center justify-center gap-6;
+  @apply flex container flex-1 flex-col items-center justify-center gap-6 my-6;
 }
 
 .navbar {
@@ -131,5 +131,5 @@ h6 {
 }
 
 p {
-  @apply text-base md:text-lg text-muted-foreground tracking-wide;
+  @apply text-sm md:text-base text-muted-foreground tracking-wide;
 }
