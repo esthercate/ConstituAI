@@ -18,7 +18,8 @@
   /* surface Colors */
   --surface: #ffffff;
   --surface-muted: #f8f9fc;
-  --citation: #f5f3ff;
+  --citation: #E5E7EB;
+  --citation-muted: #f5f3ff;
 
   /* State Colors */
   --success: #10b981;
@@ -45,6 +46,7 @@
   --surface: #1e293b;
   --surface-muted: #273549;
   --citation: #2a2548;
+  --citation-muted: #0B1031;
 
   /* State Colors */
   --success: #10b981;
@@ -69,6 +71,7 @@
   --color-surface-muted: var(--surface-muted);
 
   --color-citation: var(--citation);
+  --color-citation-muted: var(--citation-muted);
 
   --color-success: var(--success);
   --color-error: var(--error);
@@ -104,6 +107,10 @@ body {
 
 .card {
   @apply bg-surface rounded-2xl shadow-lg inset-shadow-xs;
+}
+
+.citation{
+  @apply bg-citation-muted rounded-2xl shadow-lg inset-shadow-xs border border-citation;
 }
 
 h1 {
