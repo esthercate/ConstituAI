@@ -4,7 +4,7 @@ import CitationCard from './CitationCard';
 const AiAnswerSection = () => {
   return (
 		<div className="container flex items-start justify-start">
-			<div className="p-4 max-w-3/4 lg:mx-28 flex flex-col gap-6">
+			<div className="max-w-full lg:max-w-3/4 lg:mx-28 flex flex-col gap-6">
 				<p>
 					Your rights to freedom of speech depend on which country you are in,
 					because different constitutions and laws protect speech in different
