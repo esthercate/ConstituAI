@@ -4,8 +4,6 @@ import Hero from '@/components/landing/Hero';
 import SearchBar from '@/components/landing/SearchBar';
 import SuggestedQuestions from '@/components/landing/SuggestedQuestions';
 import TrustedBadges from '@/components/landing/TrustedBadges';
-import QuestionCard from '@/components/conversation/QuestionCard';
-import AiAnswerSection from '@/components/conversation/AiAnswerSection';
 
 export default function Home() {
 	return (
@@ -16,8 +14,6 @@ export default function Home() {
 				<SearchBar />
 				<SuggestedQuestions />
 				<TrustedBadges />
-				<QuestionCard />
-				<AiAnswerSection />
 			</main>
 			<Footer />
 		</div>
