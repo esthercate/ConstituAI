@@ -110,7 +110,7 @@ body {
 }
 
 .citation{
-  @apply bg-citation-muted rounded-2xl shadow-lg inset-shadow-xs border border-citation;
+  @apply bg-citation-muted rounded-2xl shadow-lg inset-shadow-xs border border-citation max-w-full lg:max-w-md;
 }
 
 h1 {
