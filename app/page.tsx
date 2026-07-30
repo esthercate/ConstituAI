@@ -4,7 +4,6 @@ import Hero from '@/components/landing/Hero';
 import SearchBar from '@/components/landing/SearchBar';
 import SuggestedQuestions from '@/components/landing/SuggestedQuestions';
 import TrustedBadges from '@/components/landing/TrustedBadges';
-import LoadingState from '@/components/conversation/LoadingState';
 
 export default function Home() {
 	return (
@@ -15,7 +14,6 @@ export default function Home() {
 				<SearchBar />
 				<SuggestedQuestions />
 				<TrustedBadges />
-				<LoadingState />
 			</main>
 			<Footer />
 		</div>
