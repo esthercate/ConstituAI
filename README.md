@@ -25,12 +25,16 @@ ConstituAI is an AI-powered Progressive Web App that enables users to ask questi
 
 ## Technologies Used
 
+### Frontend
+
 - **Next.js** – React Framework
 - **Zustand** – State management**
 - **TypeScript** - Business logic
 - **Tailwind CSS** – Styling
-- **AWS** – Deployment
 
+### Backend
+- **AWS** – Deployment
+- **Amazon Bedrock** - LLM
 
 ## Installation
 
